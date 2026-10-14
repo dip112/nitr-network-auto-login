@@ -1,6 +1,22 @@
 # NITR Network Auto-Login Chrome Extension
 
-NITR Network Auto-Login is a Chrome extension designed to automate login to the NITR campus captive portal when a network session expires.
+**NITR Network Auto-Login** is a Chrome extension developed to simplify access to the NIT Rourkela campus network by automating the captive-portal login process.
+
+Users may need to log in manually whenever their network session expires. This can be inconvenient, particularly when accessing a system remotely, where forgetting to log in can interrupt access. This extension helps reduce manual effort by saving the required login credentials and providing an option to trigger the login process when needed.
+
+## Key Features
+
+ - **Automated Login:** Helps automate the campus network captive-portal login process.
+
+ - **Remote Access Support:** Reduces the need for manual login when accessing a system remotely.
+
+ - **Manual Login Trigger:** Provides a Force Auto-Login Now option to initiate login when required.
+
+ - **Credential Management:** Allows users to save or clear their login credentials through the extension interface. Your credentials are completely stored in your browser cache.
+
+ - **Automatic Tab Closure:** Automatically closes the login tab 30 seconds after login, helping keep the browser organized.
+
+The extension aims to make campus network access more convenient by reducing repetitive login steps and minimizing interruptions caused by expired network sessions.
 
 ## Installation Guide
 
