@@ -16,7 +16,7 @@ NITR Network Auto-Login is a Chrome extension designed to automate login to the 
 1. Open your computer's **Downloads** folder.
 2. Find the downloaded ZIP file.
 3. Right-click it and select **Extract All...** (Windows) or use your system's archive extraction option.
-4. Open the extracted project folder.
+4. Open the extracted project **NITR-Network-Auto-Login** folder.
 5. Confirm that the folder contains the extension files, including JavaScript (`.js`) files, HTML (`.html`) files, and `manifest.json`.
 
 > **Important:** Do not try to load the ZIP file directly. Chrome needs the extracted folder containing `manifest.json`.
@@ -31,34 +31,34 @@ NITR Network Auto-Login is a Chrome extension designed to automate login to the 
 
 On the Chrome Extensions page, turn on the **Developer mode** toggle in the upper-right corner. This displays the tools used to load an extension from a local folder.
 
-![Developer mode enabled and Load unpacked available](screenshots/step-2-developer-mode-load-unpacked.png)
+![Developer mode enabled and Load unpacked available](step-2-developer-mode-load-unpacked.png)
 
 ### Step 5: Load the extracted extension folder
 
 1. Click **Load unpacked** near the upper-left corner.
-2. In the folder-selection window, navigate to the project folder you extracted in Step 2.
+2. In the folder-selection window, navigate to the project folder **NITR-Network-Auto-Login** you extracted in Step 2.
 3. Select the folder that directly contains `manifest.json`.
 4. Click **Select Folder** (the wording may vary by operating system).
 
 Chrome will load the extension from the selected local folder.
 
-![Load unpacked option on the Extensions page](screenshots/step-2-developer-mode-load-unpacked.png)
+![Load unpacked option on the Extensions page](step-2-developer-mode-load-unpacked.png)
 
 ### Step 6: Confirm that the extension is installed
 
 Look under **All Extensions** for the extension card. Confirm that the extension appears and that its toggle is enabled.
 
-![Installed extension card](screenshots/step-3-extension-installed.png)
+![Installed extension card](step-3-extension-installed.png)
 
 ### Step 7: Open the extension
 
 Click the **Extensions** puzzle-piece icon in the Chrome toolbar to view available extensions.
 
-![Extensions puzzle-piece icon in Chrome](screenshots/step-4-extensions-menu.png)
+![Extensions puzzle-piece icon in Chrome](step-4-extensions-menu.png)
 
 Choose **NITR Network Auto-Login** from the list. If the extension icon is visible directly on the toolbar, you can click that icon instead.
 
-![Extension icon on the Chrome toolbar](screenshots/step-5-extension-toolbar-icon.png)
+![Extension icon on the Chrome toolbar](step-5-extension-toolbar-icon.png)
 
 ### Step 8: Enter your campus credentials
 
@@ -69,7 +69,7 @@ When the extension popup opens:
 3. Enter your campus network password in the **Password** field.
 4. Click **Save** to save the credentials according to the extension's implementation.
 
-![NITR Network Auto-Login popup](screenshots/step-6-extension-popup.png)
+![NITR Network Auto-Login popup](step-6-extension-popup.png)
 
 ### Step 9: Run auto-login when needed
 
@@ -81,7 +81,7 @@ The extension is intended to automate campus captive-portal login when the netwo
 
 After installation, you may turn off **Developer mode** if you no longer need it. The extension should remain installed.
 
-![Developer mode turned off](screenshots/step-1-developer-mode-off.png)
+![Developer mode turned off](step-1-developer-mode-off.png)
 
 ## Troubleshooting
 
@@ -89,6 +89,7 @@ After installation, you may turn off **Developer mode** if you no longer need it
 - **Chrome reports an error:** Check that you selected the correct folder and that `manifest.json` is present.
 - **Code changes do not appear:** Open `chrome://extensions` and click the extension's **Reload** icon.
 - **Login does not work:** Check your campus ID, password, internet connection, and whether the campus captive portal is reachable.
+- **Auto-Login does not work:** Make sure your system is on and chrome browser is always open
 
 ## Security Notes
 
