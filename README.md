@@ -101,7 +101,3 @@ After installation, you may turn off **Developer mode** if you no longer need it
 ## Development
 
 To test source-code changes, edit the local files, open `chrome://extensions`, and click **Reload** on the extension card.
-
-## License
-
-Add your chosen license and a corresponding `LICENSE` file before distributing the project.
