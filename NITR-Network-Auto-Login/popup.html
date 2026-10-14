@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 280px;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      padding: 15px;
+      margin: 0;
+      background-color: #fcfcfc;
+    }
+    h3 {
+      margin-top: 0;
+      color: #0076FF;
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    .status-badge {
+      text-align: center;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 12px;
+      padding: 6px;
+      border-radius: 20px;
+      background-color: #eee;
+    }
+    .form-group {
+      margin-bottom: 12px;
+      position: relative;
+    }
+    label {
+      display: block;
+      font-size: 11px;
+      margin-bottom: 4px;
+      font-weight: bold;
+      color: #555;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+    .toggle-pass {
+      position: absolute;
+      right: 10px;
+      top: 23px;
+      cursor: pointer;
+      font-size: 14px;
+      user-select: none;
+    }
+    .btn-container {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    button {
+      padding: 10px;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    .save-btn {
+      flex: 2;
+      background-color: #0076FF;
+    }
+    .save-btn:hover { background-color: #0056b3; }
+    .clear-btn {
+      flex: 1;
+      background-color: #dc3545;
+    }
+    .clear-btn:hover { background-color: #bd2130; }
+    .trigger-btn {
+      width: 100%;
+      background-color: #28a745;
+      margin-top: 8px;
+    }
+    .trigger-btn:hover { background-color: #218838; }
+    #status-box {
+      display: none;
+      background-color: #e6f4ea;
+      color: #137333;
+      border: 1px solid #dadce0;
+      padding: 8px;
+      border-radius: 4px;
+      text-align: center;
+      font-size: 12px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .footer {
+      margin-top: 15px;
+      font-size: 11px;
+      color: #777;
+      text-align: center;
+      border-top: 1px solid #eee;
+      padding-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>NITR Network Login</h3>
+  
+  <div id="net-status" class="status-badge">Checking network...</div>
+  
+  <div class="form-group">
+    <label>Username</label>
+    <input type="text" id="username" placeholder="Enter campus ID">
+  </div>
+  
+  <div class="form-group">
+    <label>Password</label>
+    <input type="password" id="password" placeholder="Enter password">
+    <span id="togglePassword" class="toggle-pass">👁️</span>
+  </div>
+  
+  <div class="btn-container">
+    <button id="saveBtn" class="save-btn">Save</button>
+    <button id="clearBtn" class="clear-btn">Clear</button>
+  </div>
+
+  <!-- New Manual Trigger Button -->
+  <button id="triggerBtn" class="trigger-btn">⚡ Force Auto-Login Now</button>
+  
+  <div id="status-box">✓ Action Successful!</div>
+
+  <div class="footer">
+    Created by Dipankar
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
